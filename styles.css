@@ -1,1 +1,56 @@
-
+html, body{
+width: 100%;
+height: 100%;
+font-style: sans-serif;
+}
+.container{
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+	min-width: 605px;
+}
+.intro {
+	margin: 0 auto;
+	text-align: justify;
+  	vertical-align: top;
+  	font-size: 150%;
+}
+.intro p {
+	display: block;
+  		-webkit-margin-before: 1em;
+  		-webkit-margin-after: 1em;
+  		-webkit-margin-start: 0px;
+ 		-webkit-margin-end: 0px;
+}
+.strong {
+	font-weight: bold;
+}
+.title {
+	display: flex;
+	justify-content: flex-end;
+	font-size: 135%;
+	float: top;
+}
+.images {
+}
+.images a img {
+	width: 150px;
+	height: 150px;
+	/*padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;*/
+}
+.row {
+	/*display: inline-block;*/
+	width: 100%;
+	/*margin-right: -15px;
+	margin-left: -15px;*/
+}
+.col25 {
+	display: inline-block;
+	text-align: center;
+	width: 24%;  /*88*/
+}
+.col25:last-child {
+	margin-right: 2%;
+}
