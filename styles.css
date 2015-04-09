@@ -32,10 +32,12 @@ font-style: sans-serif;
 	float: top;
 }
 .images {
+	padding-bottom: 30px;
 }
-.images a img {
+.images a img {ight: 150px;
+	box-sizing: border-box;
 	width: 150px;
-	height: 150px;
+	he
 	/*padding-left: 50px;
 	padding-right: 50px;
 	padding-bottom: 50px;*/
@@ -54,3 +56,15 @@ font-style: sans-serif;
 .col25:last-child {
 	margin-right: 2%;
 }
+footer {
+	width: 85%;
+	border-color: gray;
+	border-top: 2px solid;
+}
+footer p {
+	text-align: center;
+} 
+footer p a {
+	display: inline-block;
+	padding-right: 20px;
+	}
